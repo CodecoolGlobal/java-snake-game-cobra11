@@ -17,6 +17,13 @@ public class Snake implements Animatable {
     private SnakeHead head;
     private DelayedModificationList<GameEntity> body;
 
+    public SnakeHead getHead() {
+        return head;
+    }
+
+    public DelayedModificationList<GameEntity> getBody() {
+        return body;
+    }
 
     public Snake(Vec2d position) {
         head = new SnakeHead(this, position);

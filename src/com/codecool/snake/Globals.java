@@ -1,5 +1,6 @@
 package com.codecool.snake;
 
+import com.codecool.snake.entities.snakes.Snake;
 import com.codecool.snake.resources.Resources;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
@@ -17,6 +18,10 @@ public class Globals {
     private GameLoop gameLoop;
     private Resources resources;
 
+
+    public Game getGame() {
+        return game;
+    }
 
     public static Globals getInstance() {
         if(instance == null) instance = new Globals();
