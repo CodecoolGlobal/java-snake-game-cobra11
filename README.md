@@ -6,7 +6,8 @@ and we had to figure out the logic of our game, as well design the UI.
 
 This is a two-player game.
 
-Navigation:
+Navigation & Info:
+
 Blue snake - Left: 'A', Right: 'D'
 Pink snake - Left: 'left arrow', Right: 'right arrow'
 
