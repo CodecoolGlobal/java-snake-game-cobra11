@@ -5,7 +5,8 @@ The team has received a skeleton code with javafx implemented,
 and we had to figure out the logic of our game, as well design the UI.
 
 This is a two-player game.
-###Navigation:
+
+Navigation:
 Blue snake - Left: 'A', Right: 'D'
 Pink snake - Left: 'left arrow', Right: 'right arrow'
 
